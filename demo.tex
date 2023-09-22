@@ -1,11 +1,12 @@
 % This is a simple sample document.  For more complicated documents take a look in the exercise tab. Note that everything that comes after a % symbol is treated as comment and ignored when the code is compiled.
 
-\documentclass{article} % \documentclass{} is the first command in any LaTeX code.  It is used to define what kind of document you are creating such as an article or a book, and begins the document preamble
+\documentclass{IEEEtran} % \documentclass{} is the first command in any LaTeX code.  It is used to define what kind of document you are creating such as an article or a book, and begins the document preamble
 
 \usepackage{amsmath} % \usepackage is a command that allows you to add functionality to your LaTeX code
+\usepackage{amssymb} 
 
-\title{Simple Sample} % Sets article title
-\author{My Name} % Sets authors name
+\title{Low-Temperature Silicon Oxidation using Oxygen-Plasma} % Sets article title
+\author{Luke Cashwell} % Sets authors name
 \date{\today} % Sets date for date compiled
 
 % The preamble ends with the command \begin{document}
@@ -14,7 +15,7 @@
 
 \section{Hello World!} % creates a section
 
-\textbf{Hello World!} Today I am learning \LaTeX. %notice how the command will end at the first non-alphabet charecter such as the . after \LaTeX
+\textbf{Hello World!} Today I am potato learning \LaTeX. %notice how the command will end at the first non-alphabet charecter such as the . after \LaTeX
 \LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$ %$ tells LaTexX to compile as math
 . I can also give equations their own space:
 \begin{equation} % Creates an equation environment and is compiled as math
